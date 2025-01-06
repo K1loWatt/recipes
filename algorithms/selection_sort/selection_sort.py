@@ -1,14 +1,8 @@
 
 
-def findSmallest(arr: list)->int:
+def findSmallest(arr: list[int])->int:
     """
     This function finds the smallest element in an array and returns its index.
-
-    Parameters:
-    arr (list): A list of integers.
-
-    Returns:
-    int: The index of the smallest element in the array.
     """
     
     smallest = arr[0]
@@ -19,15 +13,9 @@ def findSmallest(arr: list)->int:
             smallest_index=i
     return smallest_index
 
-def selectionSort(arr:list)->list:  
+def selectionSort(arr:list[int])->list[int]:  
     """
     This function sorts an array using the selection sort algorithm.
-
-    Parameters:
-    arr (list): A list of integers to be sorted.
-
-    Returns:
-    list: The sorted list in ascending order.
     """
     
     newArr = []
