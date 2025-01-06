@@ -1,15 +1,8 @@
 
 
-def binary_search(list: List(),item:int)->int:
+def binary_search(list: list[int],item:int)->int:
     """
     This function performs a binary search on a sorted input array.
-
-    Parameters:
-    input_array (list): A sorted list of integers.
-    value (int): The value to search for in the input array.
-
-    Returns:
-    int: The index of the value in the array if found, otherwise -1.
     """
     
     low = 0
