@@ -1,20 +1,14 @@
-##Adapter pattern by inheritance
-
 class Standard:
-
     def operation(self) -> str:
         return "Standard: The default standard's behavior."
 
 
 class Special:
-
     def special_operation(self) -> str:
         return "special message"
 
 
 class Translator(Standard, Special):
-
-
     def operation(self) -> str:
         return f"Translated message {self.special_operation()[::-1]}"
 
